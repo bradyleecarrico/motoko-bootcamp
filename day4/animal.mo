@@ -1,8 +1,8 @@
 module {
 
     public type Animal = {
-    specie : Text;
-    energy : Nat;
+        specie : Text;
+        energy : Nat;
     };
 
     public func animal_sleep ( a : Animal) : Animal {
